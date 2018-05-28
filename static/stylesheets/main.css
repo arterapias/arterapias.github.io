@@ -573,7 +573,7 @@ section .inner-section {
   padding: 1rem 8rem;
   font-size: 0.9rem;
   font-weight: 700; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     section .inner-section {
       width: 100%;
       padding: 1rem; } }
@@ -732,25 +732,28 @@ section .profissional {
       .header-bar__header-inside {
         display: block;
         height: auto;
-        width: auto; } }
+        width: auto;
+        text-align: center;
+        padding: 1rem 0; } }
+  @media screen and (max-width: 800px) {
+    .header-bar__logo {
+      position: relative;
+      margin: 0 auto;
+      height: auto; } }
   .header-bar__navigation {
     align-self: center; }
-  .header-bar__menu-toggle {
-    display: none;
-    height: 20px;
-    width: 20px;
-    background-color: brown; }
     @media screen and (max-width: 800px) {
-      .header-bar__menu-toggle {
-        position: absolute;
-        display: block;
-        top: 0;
-        right: 0; } }
+      .header-bar__navigation {
+        position: relative;
+        margin: 0 auto;
+        height: auto; } }
   .header-bar__links {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex; }
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .header-bar__links ul {
     position: absolute;
     padding: 0;
@@ -847,7 +850,12 @@ section .profissional {
   /*width: $narrow-container;*/ }
   @media screen and (max-width: 800px) {
     .hero {
-      width: 100%; } }
+      width: 100%;
+      height: 30vh; } }
+  @media screen and (max-width: 400px) {
+    .hero {
+      width: 100%;
+      height: 20vh; } }
   .hero img {
     position: absolute;
     left: 0;
