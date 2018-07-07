@@ -602,6 +602,9 @@ section.rosa strong {
   background-color: #159EC6;
   padding: 0 0.2rem; }
 
+section.lilas h1 {
+  text-shadow: 6px 6px 0 #159EC6; }
+
 section.azul h1 {
   text-shadow: 6px 6px 0 #f9336f; }
 
@@ -731,6 +734,8 @@ section .profissional {
   @media screen and (max-width: 400px) {
     section .profissional {
       width: 100%; } }
+  section .profissional .tooltip {
+    display: none; }
   section .profissional .funcao {
     font-size: 0.8rem; }
   section .profissional .photo {
@@ -739,6 +744,39 @@ section .profissional {
     height: 120px;
     background-color: white;
     margin-bottom: 0.4rem; }
+
+section .protocolos_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+section #psicomotricidade {
+  background-image: url("../img/psicomotricidade.png");
+  background-size: 75%; }
+
+section #ser_bebe {
+  background-image: url("../img/ser_bebe.png"); }
+
+section #centro_hospitalar {
+  background-image: url("../img/centro_hospitalar_lisboa_centro.png");
+  background-size: 75%; }
+
+section #ordem_psicologos {
+  background-image: url("../img/ordem_psicologos.png"); }
+
+section .protocolo {
+  width: 50%;
+  height: 120px;
+  margin: 1rem 0;
+  text-align: center;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media screen and (max-width: 400px) {
+    section .protocolo {
+      width: 100%; } }
 
 .header-bar {
   overflow: hidden;
