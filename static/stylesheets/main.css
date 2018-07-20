@@ -726,6 +726,15 @@ section .profissionais_list {
   flex-wrap: wrap;
   justify-content: flex-start; }
 
+section .profissionais_p_list p {
+  display: block;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 1rem; }
+
+section .profissionais_p_list p span:first-child {
+  font-size: 1.2rem; }
+
 section .profissional {
   width: 33%;
   text-align: center;
